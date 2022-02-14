@@ -25,6 +25,19 @@ pub struct DnsRequestOptions {
     // TODO: add EDNS options here?
     /// When true, will add EDNS options to the request.
     pub use_edns: bool,
+    /// set recursion desired (or not) for any requests
+    pub recursion_desired: bool,
+}
+
+impl Default for DnsRequestOptions {
+    fn default() -> Self {
+        #[allow(deprecated)]
+        DnsRequestOptions {
+            expects_multiple_responses: false,
+            use_edns: false,
+            recursion_desired: true,
+        }
+    }
 }
 
 /// A DNS request object

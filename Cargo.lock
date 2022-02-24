@@ -1980,6 +1980,7 @@ dependencies = [
  "tracing-subscriber",
  "trust-dns-client",
  "trust-dns-proto",
+ "trust-dns-recursor",
  "trust-dns-resolver",
  "webpki 0.22.0",
  "webpki-roots 0.22.1",

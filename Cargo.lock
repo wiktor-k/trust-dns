@@ -1899,7 +1899,6 @@ version = "0.21.1"
 dependencies = [
  "async-recursion",
  "async-trait",
- "backtrace",
  "bytes",
  "cfg-if",
  "enum-as-inner",
@@ -1929,7 +1928,6 @@ dependencies = [
 name = "trust-dns-resolver"
 version = "0.21.2"
 dependencies = [
- "backtrace",
  "cfg-if",
  "futures-executor",
  "futures-util",

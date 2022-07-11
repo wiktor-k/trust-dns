@@ -34,7 +34,7 @@ impl Default for DnsRequestOptions {
     #[allow(deprecated)]
     fn default() -> Self {
         Self {
-            max_request_depth: 20,
+            max_request_depth: 22,
             expects_multiple_responses: false,
             use_edns: false,
         }
